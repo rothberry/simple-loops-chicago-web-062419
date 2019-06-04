@@ -36,7 +36,6 @@ def while_iterator(number_of_times)
     puts phrase
     counter += 1
   end
-
 end
 
 def until_iterator(number_of_times)
@@ -48,7 +47,6 @@ def until_iterator(number_of_times)
     puts phrase
     counter += 1
   end
-
 end
 
 def for_iterator(number_of_times)
@@ -60,5 +58,4 @@ def for_iterator(number_of_times)
   for counter in 1..7 do
     puts phrase
   end
-
 end
